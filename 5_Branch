@@ -1,0 +1,11 @@
+//To known the available branches
+git branch
+
+//To create a new branch
+git branch <branch_name>
+
+//To move into the barnch
+git checkout <bfranch_name>
+or
+git switch <branch_name>
+

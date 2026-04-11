@@ -1,0 +1,10 @@
+//To know the git version 
+git --version
+
+//To get command details
+git help <command_name>
+
+//Git file details
+.git folder holds all the details of the repo
+.gitignore file is used to tell the git which files should not be tracked under git
+
