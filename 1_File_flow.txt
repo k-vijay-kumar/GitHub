@@ -4,8 +4,11 @@
 //The files at the Local machine can be modified or new files can be added
 //These files need to go through the staged area before commiting to Local Repo
 
-//To add the files to staging area
+//To add the file with modification to staging area
 git -add <filename>
+
+//To remove the modifications in the file after the previous commit
+git restore <filename>
 
 //To commit the files added in staging area to Local Repo
 git commit -m "message_for_this_commit"
