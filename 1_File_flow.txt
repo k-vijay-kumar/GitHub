@@ -13,5 +13,7 @@ git restore <filename>
 //To commit the files added in staging area to Local Repo
 git commit -m "message_for_this_commit"
 
-//To update the changes at Local Repo to Remote repo
-git push -u origin main
+//To update the changes at Local Repo to Remote repo 
+git push -u origin <branch_name>
+//Here, -u sets the upstream so that the next time you can use "git push" directly to push into origin/<branch_name>
+//You can also avoid setting the upstream by just giving "git push origin <branch_name>"
