@@ -10,3 +10,9 @@ git help <command_name>
 
 //To know the commit details
 git log --oneline
+
+//HEAD pointer
+//We have 2 of them
+//1. HEAD - This points to the current local branch
+//2. origin/HEAD - This points to the default remote branch
+
