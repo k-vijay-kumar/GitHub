@@ -1,11 +1,17 @@
 //To known the available branches
 git branch
 
-//To create a new branch
-git branch <branch_name>
+//To create a new branch from a specific commit id //Get the commit id from "git log --oneline"
+git branch <branch_name> <commit_id>
 
-//To move into the barnch
-git checkout <bfranch_name>
+//To move into the branch
+git checkout <branch_name>
 or
 git switch <branch_name>
+
+//To delete a local branch
+git branch -d <branch_name> 
+
+//To push the local branch changes to remote branch //i.e., pushing the changes in current branch to a remote branch
+git push -u origin <branch-name>
 
