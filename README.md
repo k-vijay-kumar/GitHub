@@ -4,7 +4,7 @@ A step-by-step guide to mastering GitHub and Git fundamentals, specifically desi
 
 ## Overview
 
-This repository contains a series of numbered text files that walk you through essential Git and GitHub concepts. Each file focuses on a specific topic, building upon the previous ones to create a comprehensive learning path.
+This repository contains a series of Markdown guides that walk you through essential Git and GitHub concepts. Each file focuses on a specific topic, building upon the previous ones to create a comprehensive learning path.
 
 ## Table of Contents
 
@@ -21,6 +21,8 @@ This repository contains a series of numbered text files that walk you through e
 6. **[cloning-repository.md](guides/cloning-repository.md)** - Setting up SSH keys, configuring multiple GitHub accounts, and cloning repositories securely.
 
 7. **[working-with-branches.md](guides/working-with-branches.md)** - Working with Git branches, including creation, switching, deletion, merging, and using pull requests with GitHub CLI.
+
+8. **[github-cli.md](guides/github-cli.md)** - Using GitHub CLI for managing pull requests, authentication, and repository operations.
 
 ## Prerequisites
 
