@@ -1,6 +1,0 @@
-//To change the default terminal
-Settings -> search "terminal default window" -> Choose the right one
-
-//To see the .git folder in your workspace
-Settings -> Search "exclude" -> remove .git
-
