@@ -57,3 +57,27 @@ To switch to the branch associated with a pull request:
 ```bash
 gh pr checkout <id>
 ```
+
+### Merge a pull request after reviewer's approval
+
+After the PR is approved, merge it using one of these options:
+
+- Squash and merge:
+
+```bash
+gh pr merge <id> --squash --delete-branch
+```
+
+- Merge without squashing:
+
+```bash
+gh pr merge <id> --merge --delete-branch
+```
+
+- Rebase and merge:
+
+```bash
+gh pr merge <id> --rebase --delete-branch
+```
+
+The `--delete-branch` flag removes the branch after merge. Use the merge style that matches your repository workflow.
