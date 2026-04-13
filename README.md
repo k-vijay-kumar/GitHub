@@ -8,7 +8,7 @@ This repository contains a series of Markdown guides that walk you through essen
 
 ## Table of Contents
 
-1. **[01-git-basics.md](guides/git/01-git-basics.md)** - Introduction to Git basics, including version checking, help commands, .git folder, .gitignore, commit history, and HEAD pointers.
+1. **[01-git-basics.md](guides/git/01-git-basics.md)** - Introduction to Git basics, including version checking, help commands, .git folder, .gitignore, commit history, HEAD pointers, and remote origins.
 
 2. **[02-git-file-workflow.md](guides/git/02-git-file-workflow.md)** - Understanding Git's three areas: working directory, staging area, and remote repository. Covers adding files, restoring changes, committing, and pushing.
 
@@ -18,7 +18,7 @@ This repository contains a series of Markdown guides that walk you through essen
 
 5. **[05-cloning-repository.md](guides/git/05-cloning-repository.md)** - Setting up SSH keys, configuring multiple GitHub accounts, and cloning repositories securely.
 
-6. **[06-working-with-branches.md](guides/git/06-working-with-branches.md)** - Working with Git branches, including creation, switching, deletion, merging, and using pull requests with GitHub CLI.
+6. **[06-working-with-branches.md](guides/git/06-working-with-branches.md)** - Working with Git branches, including creation, switching, deletion, merging, and using pull requests.
 
 7. **[07-github-cli.md](guides/git/07-github-cli.md)** - Using GitHub CLI for managing pull requests, authentication, and repository operations.
 

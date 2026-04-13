@@ -105,23 +105,15 @@ git checkout <branch_name>
 git push origin <branch_name>
 ```
 
-2. Create the pull request using GitHub CLI:
+2. Go to your GitHub repository in a web browser.
+3. Click "Compare & pull request" (GitHub will suggest it for the new branch).
+4. Add a title and description for the pull request.
+5. Click "Create pull request".
+6. After review and approval, click "Merge pull request" on GitHub (choose merge, squash, or rebase).
 
-```bash
-gh pr create --title "Your PR Title" --body "Description of changes"
-```
+   - **Squash**: Combines all branch commits into one commit.
+   - **Rebase**: Replays branch commits on top of main for a linear history.
+   - **Merge**: Creates a merge commit preserving both branch histories.
 
-3. After the PR is approved, merge it:
-
-```bash
-gh pr merge <id> --squash --delete-branch
-```
-
-Alternatively, to merge without squashing:
-
-```bash
-gh pr merge <id> --merge --delete-branch
-```
-
-4. For more GitHub CLI PR workflow details, see `guides/github-cli.md`.
+**Note**: For creating and merging pull requests using GitHub CLI, see `guides/github-cli.md`.
 

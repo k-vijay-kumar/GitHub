@@ -21,13 +21,6 @@ git help <command_name>
 - **`.git` folder**: Contains all repository details
 - **`.gitignore` file**: Specifies files that Git should ignore
 
-## Viewing Commit History
-
-To see commit details in a compact format:
-
-```bash
-git log --oneline
-```
 
 ## HEAD Pointers
 
@@ -35,3 +28,23 @@ Git uses two main HEAD pointers:
 
 1. **HEAD**: Points to the current local branch
 2. **origin/HEAD**: Points to the default remote branch
+
+## Understanding Remote Origins
+
+In Git terms, `origin` is the default name for the URL of the repository you cloned from.
+
+### Viewing Remote URLs
+
+To see the remote repository URLs that origin points to:
+
+```bash
+git remote -v
+```
+
+### Renaming Origin
+
+To rename the origin remote:
+
+```bash
+git remote rename origin <new_name>
+```

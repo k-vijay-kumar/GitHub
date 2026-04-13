@@ -53,23 +53,3 @@ git clone git@github.com:username/repository.git
 
 If you set a custom SSH host alias in `~/.ssh/config`, replace `github.com` with your alias.
 
-## Understanding Remote Origins
-
-In Git terms, `origin` is the default name for the URL of the repository you cloned from.
-
-### Viewing Remote URLs
-
-To see the remote repository URLs that origin points to:
-
-```bash
-git remote -v
-```
-
-### Renaming Origin
-
-To rename the origin remote:
-
-```bash
-git remote rename origin <new_name>
-```
-
