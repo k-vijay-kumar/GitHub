@@ -2,11 +2,12 @@
 
 ## Git Areas
 
-Git operates with three main areas:
+Git works with a few simple places:
 
-1. **Local (Working Directory)**: The cloned repository on your machine
-2. **Stage (Staging Area)**: Caching area before committing to remote
-3. **Remote (GitHub Repository)**: The remote repository
+1. **Working Directory**: The files you edit on your computer.
+2. **Staging Area**: The files prepared to be committed.
+3. **Local Repository**: The committed history stored in the `.git` folder.
+4. **Remote Repository**: The copy of the repository on GitHub.
 
 ## File Modifications
 
@@ -44,8 +45,10 @@ To update changes from the local repository to the remote repository:
 git push -u origin <branch_name>
 ```
 
-The `-u` flag sets the upstream, allowing future pushes with just `git push`. Alternatively, you can push without setting upstream using:
+The `-u` flag sets the upstream for this branch, so later you can use `git push` without the remote and branch name.
+
+If the upstream is already set, use:
 
 ```bash
-git push origin <branch_name>
+git push
 ```

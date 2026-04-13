@@ -16,13 +16,19 @@ git branch -a
 
 ## Creating a New Branch
 
-Create a branch from the current commit:
+Create a new branch and switch to it:
+
+```bash
+git switch -c <branch_name>
+```
+
+If you only want to create the branch without switching:
 
 ```bash
 git branch <branch_name>
 ```
 
-Or create and switch to it in one step:
+Create a branch from a specified commit_id
 
 ```bash
 git branch <branch_name> <commit_id>
@@ -54,16 +60,10 @@ git push origin --delete <branch_name>
 
 ## Pushing Branch Changes
 
-Push a new local branch to the remote repository and set upstream:
+Push a new local branch to the remote repository:
 
 ```bash
-git push -u origin <branch_name>
-```
-
-For existing branches, a regular push is sufficient:
-
-```bash
-git push
+git push origin <branch_name>
 ```
 
 ## Merging Branches
@@ -102,7 +102,7 @@ git push origin main
 
 ```bash
 git checkout <branch_name>
-git push -u origin <branch_name>
+git push origin <branch_name>
 ```
 
 2. Create the pull request using GitHub CLI:

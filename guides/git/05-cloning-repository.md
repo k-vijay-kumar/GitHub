@@ -14,26 +14,27 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 - When prompted for filename, enter `~/.ssh/<filename>`
 - Do not use a passphrase; just press Enter
 
-## Step 2: Adding Config File for Multiple GitHub Accounts
+## Step 2: Adding Config File for SSH Setup
 
-Create a config file for efficient SSH usage:
+If you want SSH to use a specific key file, create or edit `~/.ssh/config`:
 
 ```bash
-cd ~/.ssh/
-mkdir config
-cd config
-# Edit the config file (using your preferred editor, e.g., vim config)
+code ~/.ssh/config
 ```
 
-Add the following content to the config file:
+Add the following content:
 
 ```
-Host <your_hostname> github.com
-    Hostname github.com
+Host github.com
+    HostName github.com
     AddKeysToAgent yes
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/<filename>
 ```
+
+If you are only using a single GitHub account and the default key file, this step is optional.
+
+SSH aliases are useful if you have multiple GitHub accounts. You can set up different aliases (like `Host personal.github.com` and `Host work.github.com`) with different keys, allowing you to clone repos from different accounts on the same system.
 
 ## Step 3: Adding SSH Public Key to GitHub
 
@@ -47,8 +48,10 @@ Host <your_hostname> github.com
 Navigate to the directory where you want to clone the repo and run:
 
 ```bash
-git clone git@<your_hostname>:username/repository.git
+git clone git@github.com:username/repository.git
 ```
+
+If you set a custom SSH host alias in `~/.ssh/config`, replace `github.com` with your alias.
 
 ## Understanding Remote Origins
 

@@ -8,7 +8,7 @@ To change the default terminal in VSCode:
 2. Search for "terminal default window"
 3. Select your preferred terminal
 
-Note: Preferred one is Git Bash
+Note: Git Bash is a common choice
 
 ## Viewing the .git Folder
 

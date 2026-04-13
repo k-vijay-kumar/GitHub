@@ -27,8 +27,10 @@ git remote add origin <repo_url>.git
 
 ## Pushing to Remote
 
-To push the contents to the remote repository:
+To push the contents to the remote repository for the first time:
 
 ```bash
-git push -u origin main
+git push origin main
 ```
+
+If your default branch is different, replace `main` with the correct branch name.

@@ -35,4 +35,3 @@ Git uses two main HEAD pointers:
 
 1. **HEAD**: Points to the current local branch
 2. **origin/HEAD**: Points to the default remote branch
-

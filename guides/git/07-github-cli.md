@@ -40,7 +40,7 @@ gh pr create --title "Your PR Title" --body "Description of changes" --reviewer 
 ```
 
 - `--reviewer` requests a code review from one or more users
-- `--assignee` assigns the PR to a user for follow-up or merging
+- `--assignee` assigns the PR to a user for follow-up on merging
 
 ### View pull request details
 

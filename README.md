@@ -1,6 +1,6 @@
 # GitHub Basics Guide
 
-A step-by-step guide to mastering GitHub and Git fundamentals, specifically designed for developers using Visual Studio Code. This repository provides practical commands, configurations, and workflows to help you get started with version control and collaborative development.
+A minimal, beginner-friendly guide for new GitHub users. This repository provides simple commands, configurations, and workflows for common Git and GitHub tasks, with optional VS Code-specific tips.
 
 ## Overview
 
@@ -8,27 +8,27 @@ This repository contains a series of Markdown guides that walk you through essen
 
 ## Table of Contents
 
-1. **[git-basics.md](guides/git-basics.md)** - Introduction to Git basics, including version checking, help commands, .git folder, .gitignore, commit history, and HEAD pointers.
+1. **[01-git-basics.md](guides/git/01-git-basics.md)** - Introduction to Git basics, including version checking, help commands, .git folder, .gitignore, commit history, and HEAD pointers.
 
-2. **[git-file-workflow.md](guides/git-file-workflow.md)** - Understanding Git's three areas: Local (working directory), Stage (caching area), and Remote (GitHub repository). Covers adding files, restoring changes, committing, and pushing.
+2. **[02-git-file-workflow.md](guides/git/02-git-file-workflow.md)** - Understanding Git's three areas: working directory, staging area, and remote repository. Covers adding files, restoring changes, committing, and pushing.
 
-3. **[local-git-configuration.md](guides/local-git-configuration.md)** - Configuring Git on your local machine, including user settings, default branch, and credential caching.
+3. **[03-local-git-configuration.md](guides/git/03-local-git-configuration.md)** - Configuring Git on your local machine, including user settings, default branch, and credential caching.
 
-4. **[vscode-git-configuration.md](guides/vscode-git-configuration.md)** - Essential VSCode settings for working with Git, such as changing the default terminal and viewing .git folders.
+4. **[04-creating-repository-from-local.md](guides/git/04-creating-repository-from-local.md)** - How to initialize a local project as a Git repository, commit files, and push to a new GitHub repository.
 
-5. **[creating-repository-from-local.md](guides/creating-repository-from-local.md)** - How to initialize a local project as a Git repository, commit files, and push to a new GitHub repository.
+5. **[05-cloning-repository.md](guides/git/05-cloning-repository.md)** - Setting up SSH keys, configuring multiple GitHub accounts, and cloning repositories securely.
 
-6. **[cloning-repository.md](guides/cloning-repository.md)** - Setting up SSH keys, configuring multiple GitHub accounts, and cloning repositories securely.
+6. **[06-working-with-branches.md](guides/git/06-working-with-branches.md)** - Working with Git branches, including creation, switching, deletion, merging, and using pull requests with GitHub CLI.
 
-7. **[working-with-branches.md](guides/working-with-branches.md)** - Working with Git branches, including creation, switching, deletion, merging, and using pull requests with GitHub CLI.
+7. **[07-github-cli.md](guides/git/07-github-cli.md)** - Using GitHub CLI for managing pull requests, authentication, and repository operations.
 
-8. **[github-cli.md](guides/github-cli.md)** - Using GitHub CLI for managing pull requests, authentication, and repository operations.
+8. **[08-vscode-git-configuration.md](guides/vscode/08-vscode-git-configuration.md)** - VS Code-specific Git configuration and workspace setup, including terminal preferences and .git visibility.
 
 ## Prerequisites
 
 - Basic understanding of command-line interfaces
 - A GitHub account
-- Visual Studio Code installed
+- Visual Studio Code (optional, for VS Code-specific tips)
 - Git installed on your system
 
 ## License
