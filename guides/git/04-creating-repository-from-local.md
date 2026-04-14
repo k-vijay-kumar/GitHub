@@ -28,9 +28,8 @@ Create an empty repo at the Github without any Readme, Lisence or .gitignore fil
 ### step 2: Configure the origin 
 
 ```bash
-git remote set-url origin <git@github.com:username/repository.git>.git
+git remote add origin <git@github.com:username/repository.git>.git
 ```
-If you have a custom SSH host alias in `~/.ssh/config`, replace `github.com` with your alias
 
 or
 
@@ -39,7 +38,12 @@ or
 ```bash
 gh repo create <repo_name> --private --source=.
 ```
-gh by-default uses `github.com` as Host. If you have custom SSH host alias, replace `github.com` with your alias
+
+Note: gh by-default adds the origin with `github.com` as Host. If you have custom SSH host alias, replace `github.com` with your alias using below command
+
+```bash
+git remote set-url origin git@alias:username/repository.git
+```
 
 ## Pushing to Remote
 
