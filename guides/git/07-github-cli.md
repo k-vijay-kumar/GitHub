@@ -16,6 +16,12 @@ Run the following command and complete the interactive login flow:
 gh auth login
 ```
 
+## To create a private remote repo and set default origin for the pwd
+
+```bash
+gh repo create <repo_name> --private --source=.
+```
+
 ## Working with Pull Requests
 
 ### List all pull requests

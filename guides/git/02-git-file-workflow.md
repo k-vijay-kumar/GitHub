@@ -37,13 +37,13 @@ To commit the files in the staging area to the local repository:
 git commit -m "message_for_this_commit"
 ```
 
-    ### Viewing Commit History
+### Viewing Commit History
 
-    To see commit details in a compact format:
+To see commit details in a compact format:
 
-    ```bash
-    git log --oneline
-    ```
+```bash
+git log --oneline
+```
 
 ## Pushing to Remote
 
