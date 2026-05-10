@@ -10,9 +10,9 @@ This repository contains a series of Markdown guides that walk you through essen
 
 1. **[01-git-basics.md](guides/git/01-git-basics.md)** - Introduction to Git basics, including version checking, help commands, .git folder, .gitignore, commit history, HEAD pointers, and remote origins.
 
-2. **[02-git-file-workflow.md](guides/git/02-git-file-workflow.md)** - Understanding Git's three areas: working directory, staging area, and remote repository. Covers adding files, restoring changes, committing, and pushing.
+2. **[02-git-file-workflow.md](guides/git/02-git-file-workflow.md)** - Understanding Git's three areas: working directory, staging area, and remote repository. Covers adding files, restoring changes, viewing changes, committing, and pushing.
 
-3. **[03-local-git-configuration.md](guides/git/03-local-git-configuration.md)** - Configuring Git on your local machine, including user settings, default branch, and credential caching.
+3. **[03-local-git-configuration.md](guides/git/03-local-git-configuration.md)** - Configuring Git on your local machine, including user settings, difftool, default branch, and credential caching.
 
 4. **[04-creating-repository-from-local.md](guides/git/04-creating-repository-from-local.md)** - How to initialize a local project as a Git repository, commit files, and push to a new GitHub repository.
 
