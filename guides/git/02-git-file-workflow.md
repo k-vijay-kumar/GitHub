@@ -29,6 +29,26 @@ To remove modifications in a file after the previous commit:
 git restore <filename>
 ```
 
+## Viewing changes
+
+To view changes between "local version" VS "staged/ latest comitted(If file is not staged) version" of a file
+
+```bash
+git difftool <filename>
+```
+
+To view changes between "staged version" VS "latest commited version" of a file
+
+```bash
+git difftool --staged <filename>
+```
+
+To view all changes between "local version" VS "latest commited version" of a file
+
+```bash
+git difftool HEAD <filename>
+```
+
 ## Committing Changes
 
 To commit the files in the staging area to the local repository:
